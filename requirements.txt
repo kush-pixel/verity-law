@@ -1,0 +1,40 @@
+# ── PyTorch (CUDA 11.8 for RTX 4060) ───────────────────
+torch
+torchvision
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# ── NLP ─────────────────────────────────────────────────
+spacy
+sentence-transformers
+lexnlp
+
+# ── Databases ───────────────────────────────────────────
+neo4j
+qdrant-client
+
+# ── API + LLM ───────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+google-generativeai
+httpx
+
+# ── Evaluation ──────────────────────────────────────────
+ragas
+trulens-eval
+langsmith
+datasets
+
+# ── Utilities ───────────────────────────────────────────
+pandas
+numpy
+tqdm
+requests
+
+# ── Dev / Formatting ────────────────────────────────────
+black
+ruff
+pytest
+pytest-asyncio
