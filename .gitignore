@@ -12,6 +12,7 @@ nlp/failed_opinions.log
 
 # ── Python ─────────────────────────────────────────────
 venv/
+veritylaw/
 __pycache__/
 *.pyc
 *.pyo
